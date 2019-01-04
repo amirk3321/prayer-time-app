@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/mob_nav_graph" app:startDestination="@id/prayerTimeFragment">
+
+    <fragment android:id="@+id/prayerTimeFragment"
+              android:name="com.c4coding.prayertime.ui.fragments.prayercurrent.PrayerTimeFragment"
+              android:label="Prayer Time"/>
+    <fragment android:id="@+id/campassFragment"
+              android:name="com.c4coding.prayertime.ui.fragments.qiblacampass.CampassFragment"
+              android:label="compass"/>
+    <fragment android:id="@+id/islamicCalanderFragment"
+              android:name="com.c4coding.prayertime.ui.fragments.calenderIslamic.IslamicCalanderFragment"
+              android:label="Islamic Calander"/>
+    <fragment android:id="@+id/settingFragment"
+              android:name="com.c4coding.prayertime.ui.fragments.setting.SettingFragment"
+              android:label="Setting"/>
+</navigation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Location" >
+        <SwitchPreference
+        android:title="Device Location"
+        android:summary="Allow device to access Location"
+        android:key="DEVICE_LOCATION"
+        android:defaultValue="true"
+        android:disableDependentsState="true"/>
+        <EditTextPreference
+        android:title="Custom Location"
+        android:summary="Set your custom location"
+        android:key="CUSTOM_LOCATION"
+        android:defaultValue="karachi"
+        android:dependency="DEVICE_LOCATION"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+    android:title="Alarm">
+        <ListPreference
+        android:title="Silence after"
+        android:summary="%s"
+        android:key="SILENCE_AFTER"
+        android:entryValues="@array/silenece_value"
+        android:entries="@array/silence_entry"
+        android:defaultValue="10 minute"/>
+        <ListPreference
+                android:title="Snooze Length"
+                android:summary="%s"
+                android:key="SNOOZE_LENGTH"
+                android:entryValues="@array/SnoozeLength_value"
+                android:entries="@array/SnoozeLength_entry"
+                android:defaultValue="10 minute"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="Clock">
+        <ListPreference
+                android:title="Style"
+                android:summary="%s"
+                android:key="STYLE_CLOCK"
+                android:entries="@array/style_entry"
+                android:entryValues="@array/style_value"
+                android:defaultValue="digital"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

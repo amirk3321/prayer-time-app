@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="prayer"
+          android:icon="@drawable/ic_access_time_black_24dp"
+          android:orderInCategory="1"
+    android:id="@+id/prayerTimeFragment"/>
+    <item android:title="compass"
+    android:icon="@drawable/ic_adjust_black_24dp"
+    android:orderInCategory="2"
+    android:id="@+id/campassFragment"/>
+    <item android:orderInCategory="3"
+          android:title="calender"
+          android:id="@+id/islamicCalanderFragment"
+          android:icon="@drawable/ic_date_range_black_24dp"
+          />
+</menu>

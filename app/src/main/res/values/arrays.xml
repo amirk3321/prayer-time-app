@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="silenece_value">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>NEVER</item>
+    </string-array>
+    <string-array name="silence_entry">
+        <item>1 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 minute</item>
+        <item>25 minute</item>
+        <item>30 minute</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="SnoozeLength_value">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="SnoozeLength_entry">
+        <item>1 minute</item>
+        <item>2 minute</item>
+        <item>4 minute</item>
+        <item>6 minute</item>
+        <item>8 minute</item>
+        <item>10 minute</item>
+        <item>12 minute</item>
+        <item>14 minute</item>
+        <item>16 minute</item>
+        <item>18 minute</item>
+        <item>20 minute</item>
+    </string-array>
+    <string-array name="style_value">
+        <item>DIGITAL</item>
+        <item>ANALOG</item>
+    </string-array>
+    <string-array name="style_entry">
+        <item>digital</item>
+        <item>analog</item>
+    </string-array>
+</resources>
